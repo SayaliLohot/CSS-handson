@@ -1,0 +1,141 @@
+body{
+    background-color: gray;
+}
+.heading{
+    color: rgb(206, 23, 23);
+    border: 5px solid red;
+    border-radius: 25px;
+    background-color: white;
+    width: 400px;
+    /* height: 150px; */
+    /* display: flex; */
+    text-align: center;
+    /* align-items: center; */
+    /* flex-wrap: nowrap; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* position: relative; */
+    /* left: 450px; */
+    margin: auto;
+    box-shadow: 7px 7px rgb(104, 2, 104);
+    text-shadow: 2px 2px 2px rgb(182, 32, 182);
+
+}
+
+.boxes{
+    border:8px solid green ;
+    position: relative;
+    height: 600px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxes > div{
+    color: black;
+    border: 5px solid red;
+    border-radius: 25px;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    box-shadow: 7px 7px rgb(104, 2, 104);
+    text-shadow: 2px 2px 2px rgb(182, 32, 182);
+
+}
+.box3{
+    background-image: url(./groceryshop.png);
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+}
+#button{
+    border-radius: 25px;
+    background-color: rgb(231, 47, 47);
+}
+.scrollbox{
+    border: 5px solid red;
+    border-radius: 25px;
+    color: brown;
+    background-color: greenyellow;
+    font-style: italic;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px;
+    /* margin-right: 150px; */
+    /* margin-left: 150px; */
+    width: 250px;
+    height: 50px;
+    position: fixed;
+    left: 500px;
+    top: 490px;
+    box-shadow: 7px 7px rgb(104, 2, 104);
+
+
+    
+}
+.box1{
+    position: relative;
+    right: 190px;
+    bottom: 15px;
+}
+.box2{
+    position: relative;
+    right: 190px;
+    top: 15px;
+}
+.box3{
+    position: relative;
+    left: 150px;
+    bottom: 15px;
+}
+.box4{
+    position: relative;
+    left: 150px;
+    top: 15px;
+}
+#scrollboxfi{
+    font-size: 20px;
+}
+.container{
+    width: 800px;
+    border: 5px solid purple;
+    margin: 30px auto;
+    background-color: green;
+    padding: 10px;
+
+}
+.item{
+    border: 2px solid grey;
+    background-color: rgb(231, 231, 164);
+    margin: 5px;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+#fruits{
+   float: left;
+   width: 48%;
+}
+
+#vegetable{
+    float: left;
+    width: 48%;
+}
+
+#other{
+  /*   float: left;*/
+    clear: both;
+    width: 100%;
+    
+}
+#storeh2{
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+}
