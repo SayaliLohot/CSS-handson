@@ -1,0 +1,187 @@
+
+body{
+background-image: url(./images/shara\ desert.jpg);
+background-size: cover;
+color: white;
+margin: 0;
+padding: 0;
+width: 100%;
+}
+.image1{
+    width: 50px;
+    height: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.buttonlinks{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+    left: 140px;
+}
+.cards{
+    width: 235px;
+    height: 240px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 2px;
+}
+.cards:hover{
+    transition-duration: 1s;
+    margin-top: -20px;
+}
+.card1{
+    background-image: url(./images/pic-1.png);
+    background-size: cover;
+}
+
+.card2{
+    background-image: url(./images/pic-2.png);
+    background-size: cover;
+}
+.card3{
+    background-image: url(./images/pic-3.png);
+    background-size: cover;
+}
+.card4{
+    background-image: url(./images/pic-4.png);
+    background-size: cover;
+}
+.mainbox1{
+    width:450px ;
+    height: 500px;
+    padding-top: 100px;
+}
+#heading{
+font-size: 100px;
+margin-bottom: 2px;}
+.mainbox2{
+    height: 650px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-evenly;
+}
+.boxcontainer2{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.explore{
+    width: 180px;
+    height: 40px;
+    /* color: black; */
+    border-radius: 20px;
+    border-color: white;
+}
+
+
+/* media querry for Tab view */
+
+
+@media only screen and (max-width:856px){
+    body{
+        background-size: contain;
+
+    }
+    .boxcontainer2{
+        /* width: 80%; */
+        display: block;
+        /* margin: 30px; */
+        margin: 0px 40px 0px 40px;
+        box-sizing: border-box;
+    }
+    .mainbox1{
+         /* margin-top: 0px; */
+    width: 800px;
+    height: 350px;
+    /* padding-top: 100px; */
+
+    }
+    #heading{
+        font-size: 100px;
+        margin: auto;
+    }
+    .mainbox2{
+            /* padding: 0px; */
+    height: auto;
+    width: auto;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-direction: column;
+    /* margin: 0px;*/
+    }
+    .cards{
+        width: 440px;
+        margin: auto;
+        height: 250px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+
+    }
+
+}
+
+
+/* media querry for mobile view */
+
+@media only screen and (max-width:360px){
+    body{
+        background-size: cover;
+        width: 850px;
+
+    }
+    .navbar{
+        font-size: 38px;
+    /* width: 360px; */
+    }
+
+    .buttonlinks{
+    flex-direction: column;
+    }
+
+    .image1{
+        width: 80px;
+        height: 80px;
+    }
+    .mainbox1{
+   width: auto;
+   height: auto;
+   margin-bottom: 40px;
+
+   }
+    #heading{
+        font-size: 150px;
+        margin-bottom: 2px;
+    }
+    .mainbox1  p{
+        font-size: 40px;
+    }
+   
+    .explore{
+        width: 180px;
+        height: 60px;
+        font-size: 20px;
+    }
+.cards{
+    height: 450px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    padding: 25px;
+font-size: 30px;
+}
+}
