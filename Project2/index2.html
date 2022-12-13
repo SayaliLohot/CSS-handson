@@ -10,77 +10,105 @@
 <body>
     <div class="blur">
         <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>CSS Project 1</title>
-            <link rel="stylesheet" href="./style.css">
-        </head>
-        <body>
-            <div class="heading">
-            <h1 class="head1">Tasks &nbsp;<span id="hlist">List</span></h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Project 1</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="heading"><a href="./index2.html">
+    <h1 class="head1">Tasks &nbsp;<span id="hlist">List</span></h1>
+</a>
+</div>
+
+
+<div class="newtask">
+  <a href="./index2.html"> <!-- <span class="plussign">+</span>-->
+    <i class="fa fa-plus-circle" style="font-size:75px;color:blue"></i>
+
+    <!-- <img src="./images/plus-sign.png" alt="sign" class="plussign"> -->
+    <span class="antask">Add New Task</span>
+</a>
+</div>
+<div class="boxes">
+    <div class="miniboxes">
+        <div class="aboxes"><a href="./index2.html" class="aboxes">Trip to paris</a>
+        </div><hr>
+        <div class="linethrough">
+            <input type="checkbox" checked id="checked">
+            <lable>Visit Church</lable>
+        <!-- <img src="./images/checked.png" class="imgsize"> -->
         </div>
-        <div class="newtask">
-          <a href="./index2.html"> <!-- <span class="plussign">+</span>-->
-            <img src="./images/plus-sign.png" alt="sign" class="plussign">
-            <span class="antask">Add New Task</span></a>
-        </div>
-        <div class="boxes">
-            <div class="miniboxes">
-                <div class="aboxes"><a href="./index2.html" class="aboxes">Trip to paris</a>
-                </div><hr>
-                <div class="linethrough">
-                <img src="./images/checked.png" class="imgsize">
-                Visit Church</div>
-                <div class="nonelinethrogh">
-                <img src="./images/unchecked.png" class="imgsize">
-                Shopping</div>
+        <div class="nonelinethrogh">
+            <input type="checkbox"  id="checkedempty">
+            <lable>Shopping</lable>
+        <!-- <img src="./images/unchecked.png" class="imgsize"> -->
+       </div>
+    </div>
+    <div class="miniboxes">
+        <div class="aboxes"><a href="./index2.html" class="aboxes">My To Do List</a>
+        </div><hr>
+        <div class="linethrough">
+            <!-- <img src="./images/checked.png" class="imgsize"> -->
+            <input type="checkbox" checked id="checked">
+            <lable>Visit Supermarket</lable>
             </div>
-            <div class="miniboxes">
-                <div class="aboxes"><a href="./index2.html" class="aboxes">My To Do List</a>
-                </div><hr>
-                <div class="linethrough">
-                    <img src="./images/checked.png" class="imgsize">
-                    Visit Supermarket</div>
-                    <div class="nonelinethrogh">
-                        <img src="./images/unchecked.png" class="imgsize">
-                        Buy Vegetables</div>
+            <div class="nonelinethrogh">
+                <input type="checkbox"  id="checkedempty">
+            <lable>Buy Vegetables</lable>
+                <!-- <img src="./images/unchecked.png" class="imgsize"> -->
+                </div>
+    </div>
+    <div class="miniboxes">
+        <div class="aboxes"><a href="./index2.html" class="aboxes">Movies I will Watch</a>
+        </div><hr>
+        <div class="linethrough">
+            <!-- <img src="./images/checked.png" class="imgsize"> -->
+            <input type="checkbox" checked id="checked">
+            <lable>Stranger Things 4</lable>
             </div>
-            <div class="miniboxes">
-                <div class="aboxes"><a href="./index2.html" class="aboxes">Movies I will Watch</a>
-                </div><hr>
-                <div class="linethrough">
-                    <img src="./images/checked.png" class="imgsize">
-                    Stranger Things 4</div>
-                    <div class="nonelinethrogh">
-                        <img src="./images/unchecked.png" class="imgsize">
-                    Avengers Endgame</div>
+            <div class="nonelinethrogh">
+                <!-- <img src="./images/unchecked.png" class="imgsize"> -->
+                <input type="checkbox"  id="checkedempty">
+            <lable>Avengers Endgame</lable>
             </div>
-            <div class="miniboxes">
-                <div class="aboxes"><a href="./index2.html" class="aboxes">Daily Morning Routine for...</a>
-                </div><hr>
-                <div class="linethrough">
-                    <img src="./images/checked.png" class="imgsize">
-                    Wake up at 6 AM</div>
-                    <div class="nonelinethrogh">
-                        <img src="./images/unchecked.png" class="imgsize">
-                    Sleep at 10 PM</div>
+    </div>
+    <div class="miniboxes">
+        <div class="aboxes"><a href="./index2.html" class="aboxes">Daily Morning Routine for...</a>
+        </div><hr>
+        <div class="linethrough">
+            <!-- <img src="./images/checked.png" class="imgsize"> -->
+            <input type="checkbox" checked id="checked">
+            <lable>Wake up at 6 AM</lable>
             </div>
-            <div class="miniboxes">
-                <div class="aboxes"><a href="./index2.html" class="aboxes" >Books to Read</a>
-                </div><hr>
-                <div class="linethrough">
-                    <img src="./images/checked.png" class="imgsize">
-                    Design of Everyday</div>
-                    <div class="nonelinethrogh">
-                        <img src="./images/unchecked.png" class="imgsize">
-                    Alchemist</div>
+            <div class="nonelinethrogh">
+                <!-- <img src="./images/unchecked.png" class="imgsize"> -->
+                <input type="checkbox"  id="checkedempty">
+            <lable>Sleep at 10 PM</lable>
             </div>
-        </div>
-        </body>
-        </html>
+    </div>
+    <div class="miniboxes">
+        <div class="aboxes"><a href="./index2.html" class="aboxes" >Books to Read</a>
+        </div><hr>
+        <div class="linethrough">
+            <!-- <img src="./images/checked.png" class="imgsize"> -->
+            <input type="checkbox" checked id="checked">
+            <lable>Design of Everyday</lable>
+            </div>
+            <div class="nonelinethrogh">
+                <!-- <img src="./images/unchecked.png" class="imgsize"> -->
+                <input type="checkbox"  id="checkedempty">
+            <lable>Alchemist</lable>
+            </div>
+    </div>
+</div>
+</body>
+</html>
+
     </div>
 
 
