@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>CSS Interview Prepration Day 2</title>
+</head>
+<body>
+    <h1 class="heading"> CSS Interview Prepration Day 2</h1>
+    <h3 class="questions">Q1.What is box sizing?</h3>
+    <ul>
+        <li>Defines how the width and height of an element are calculated: should they include padding and borders, or not.</li>
+        <ol>
+            <li>Border-box:The size of border-box remains same while size of content decreases as padding and border grows.</li>
+            <li>Content-box:The content size remains same while border-box size grows as padding and border grows.</li>
+        </ol>
+    </ul>
+    <!-- how width and height will be apply on element<br>
+    content box: content only(border contains only content width)<br>
+    border box: include content, border and padding( the border box width include all three) -->
+    <div class="borderbox"> Border box having padding 20px </div>
+    <div class="contentbox">Content box having padding 20px </div>
+
+<h3 class="questions">Q2.What is animation delay?</h3>
+<ul>
+    <li>The animation-delay CSS property specifies the amount of time wait to perform the animation.</li>
+    <li>The animation-delay value is defined in seconds (s) or milliseconds (ms).</li>
+</ul>
+<!-- An animation lets an element gradually change from one style to another. <br>
+keyframe is property to control over element, its basicaly <br>
+animation  delay specify the time before start an action<br> -->
+
+<h3 class="questions">Q3.Write code to show any animation example</h3>
+<div id="animationdiv">
+    
+        <div class="box1"></div>
+
+</div>
+<h3 class="questions">Q4.What is grid-template-columns used for?</h3>
+<ul>
+    <li>The grid-template-columns property specifies the number (and the widths) of columns in a grid layout.</li>
+    <li> We can code it like "grid-template-columns: 30px 200px auto 100px;"</li>
+</ul>
+
+<h3 class="questions">Q5.Which property you will use to merge cells vertically in grid?</h3>
+<ul>
+    <li>The grid-column property specifies a grid item's size and location in a grid layout, and is a shorthand property for the following properties:- grid-column-start: and grid-column-end:</li>
+    <li>By using grid-column property we can achieve the merging of columns.</li>
+</ul>
+
+<h3 class="questions">Q6.Which property you will use to merge cells horizontally in grid?</h3>
+<ul>
+    <li>The grid-row property specifies a grid item's size and location in a grid layout, and is a shorthand property for the following properties:- grid-row-start: and grid-row-end:</li>
+    <li>By using grid-row property we can achieve the merging of rows.</li>
+</ul>
+<h3 class="questions">Q7.What is the difference between display none and visibility hidden?</h3>
+<ul>
+    <li>Display:none- It removes the element from the webpage layout completely,without leaving any space.( It removes the element from the document hence it does not take up any space.)</li>
+    <li>Visibility: hidden- It keeps the element in the webpage layout but hides it, thus leaving a blank space for the element.(It hide element with space)</li>
+</ul>
+
+<a href="./index.html" class="links"> Go back to previous page.</a><br>
+<a href="./index3.html" class="links"> Go to next page.</a>
+
+
+</body>
+</html>

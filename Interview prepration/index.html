@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Interview Prepration Day 1</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="heading"> CSS Interview Prepration Day 1</h1>
+    <h3 class="questions">Q1. Explain inline, internal and external stylesheet</h3>
+        <ul >
+            <li>These three are ways of inserting a style sheet.</li>
+            <li>External CSS :</li>
+            <ul type="square">
+                <li>External styles are defined within the &lt; link &gt; element, inside the &lt;head&gt; section of an HTML page</li>
+                <li> &lt;link rel="stylesheet" href="style.css"&gt;
+                </li>
+            </ul>
+            <li>Internal CSS :
+                <ul type="square">
+                    <li>Internal styles are defined within the &lt;style&gt; element, inside the &lt;head&gt; section of an HTML page</li>
+                    <li>&lt;style&gt;<br>
+                        body {<br>
+                          background-color: linen;<br>
+                        }<br>
+                        &lt;/style&gt;</li>
+                </ul>
+            </li>
+            <li>Inline CSS :
+                <ul type="square">
+                    <li>Inline styles are defined within the "style" attribute of the relevant element </li>
+                    <li>&lt;p style="color:red;">This is a paragraph./ p&gt;</li>
+                </ul>
+            </li>
+        </ul>
+        <h3 class="questions">Q2. What is css box model?</h3>
+        <ul>
+            <li>The CSS box model is essentially a box that wraps around every HTML element.</li>
+            <li>It consists of: margins, borders, padding, and the actual content.</li>
+        </ul>
+        <h3 class="questions">Q3. What is the difference between padding and margin?</h3>
+        <ul>
+            <li>Margin is said to be the outer space of an element, i.e., the margin is the space outside of the element's border. </li>
+            <li>Padding is said to be the inner space of an element, i.e., the padding is the space inside of the element's border.</li>
+        </ul>
+        <h3 class="questions">Q4. Difference between flex row and column?</h3>
+        <ul>
+            <li>These are values of flex-direction property.</li>
+            <li>Row represents the horizontal axis oriented from left to right</li>
+            <li>Column: same as row but top to bottom</li>
+        </ul>
+        <h3 class="questions">Q5. Justify-content allows you to do what?</h3>
+        <ul>
+            <li>It works on x axis (main axis) horizontal</li>
+            <li>Specify how flex item will distibute along with x-axis respective to parent container.</li>
+            <li>space evenly, space between, start ,end, center, space around, strech, etc</li>
+        </ul>
+        <h3 class="questions">Q6. Difference between absolute and relative positioning</h3>
+        <ul>
+            <li>Relative places an element relative to its current position without changing the layout around it.(The space will remains as it is, it will not fill by next element.)</li>
+            <li>Absolute places an element relative to its parent's position and changing the layout around it.(It moves acording to parent element, space aquired by other elements.)</li>
+        </ul>
+        <h3 class="questions">Q7. What is the z-index in CSS?</h3>
+        <ul>
+            <li>The z-index CSS property sets the z-order of a positioned element</li>
+            <li>It defines the order of overlapping HTML elements. Elements with a higher index will be placed on top of elements with a lower index.</li>
+            <li>It does not work on static position.</li>
+        </ul>
+        <a href="./index2.html" class="links"> Go to next page.</a>
+
+    <!-- <h1>Q2. What is css box model?</h1>
+    <h1>Q3. What is the difference between padding and margin?</h1>
+    <h1>Q4. Difference between flex row and column</h1>
+    <ol>
+        <li>values of display property</li>
+        <li>Row: default value</li>
+        <li>Coloum: we have to give display direction coloum</li>
+    </ol>
+
+    <h1>Q5. Justify-content allows you to do what?</h1>
+    <ol>
+        <li>it works on x axis (main axis) horizontal</li>
+        <li>specify how flex item will distibute along with x any axis respective to parent conter</li>
+        <li>space evenly, space between, start ,end, center, space around, strech, etc</li>
+    </ol>
+    <h1>Q6. Difference between absolute and relative positioning</h1>
+         relative: it moves acording to near by element, the space will remains as it is, it will not fill by next element.<br>
+         absolute: it moves acording to parent element, space aquired by other elements.
+
+    <h1>Q7. What is the z-index in CSS?</h1>
+          z-index works on z axis, 
+          greater z index the elemet will be top as compair to other one which has lower z index -->
+
+</body>
+</html>
