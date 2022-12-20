@@ -107,5 +107,61 @@ padding: 20px;
         width: 600px;
     }
    
-   
+   .p5que1{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition: width 1s, height 4s;
+    /* transition-duration: 2s; */
+   }
+   .p5que1:hover{
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+
+   }
+   .p5que2{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    animation-name: transformation;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
     
+}
+
+@keyframes transformation{
+    0%{
+        transform: rotate(0eg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/* 
+    @keyframes transformation{
+        0%{
+            transform:translate(0, 0) ;
+        }
+        25%{
+            transform:translate(240px, 0) ;
+
+        }
+        50%{
+            transform:translate(240px, 140px) ;
+
+        }
+        75%{
+            transform:translate(0, 140px) ;
+
+        }
+        100%{
+            transform:translate(0, 0) ;
+        }
+    } */
+
+
